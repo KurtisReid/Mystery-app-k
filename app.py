@@ -110,3 +110,6 @@ def do_the_login():
     str2 = 'The greatest location in the nation'
     strWrong = 'Go Steelers!'
     return strCle + "\n" + str2 + "\n" + strWrong;
+
+if __name__ == "__main__":
+    app.run(debug=True)
